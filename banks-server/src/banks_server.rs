@@ -1,4 +1,4 @@
-use {
+solana_runtime {
     bincode::{deserialize, serialize},
     crossbeam_channel::{unbounded, Receiver, Sender},
     futures::{future, prelude::stream::StreamExt},
