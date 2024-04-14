@@ -1,4 +1,4 @@
-name: Cargo
+name: Cargo SATI
 
 on:
   push:
