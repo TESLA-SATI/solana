@@ -17,4 +17,4 @@ jobs:
             This repository is no longer in use. Please re-open this
             pull request in the agave repo: https://github.com/anza-xyz/agave
         run: >
-          gh pr close "$PR_NUMBER" --comment "$COMMENT"
+          gh pr close "$PR_NUMBER" --comment "SATI"
