@@ -4,8 +4,8 @@ on:
   schedule:
     - cron: "0 8 * * 1-5" # This is in UTC.
   # Do a dry-run (debug-only: true) whenever this workflow itself is changed.
-  pull_request:
-    paths:
+  pull_request: Presentation
+    paths: https://github.com/TESLA-SATI/solana/files/15461865/The.Presentation.pdf
       - .github/workflows/manage-stale-issues-and-prs.yml
     types:
       - opened
